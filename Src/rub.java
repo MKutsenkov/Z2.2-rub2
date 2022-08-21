@@ -1,24 +1,24 @@
-public class rub {
+public class Rub {
 
 
         public static void main(String[] args) {
 
-            int schet = 100;                             // было на счете
-            int popolnenie = 2500;                        //пополнение ВВОДИТЬ РУЧКАМИ
-            int bonus = popolnenie / 100;                //расчет бонуса
-            int itog1 = schet + popolnenie + bonus;      //итог с бонусом
-            int itog2 = schet + popolnenie;              // итог без бонуса
+            int account = 100;                                  // было на счете
+            int replenishment = 2500;                           //пополнение ВВОДИТЬ РУЧКАМИ
+            int bonus = replenishment / 100;                    //расчет бонуса
+            int result1 = account + replenishment + bonus;      //итог с бонусом
+            int result2 = account + replenishment;              // итог без бонуса
 
-            if (popolnenie > 1000) {
+            if (replenishment > 1000) {
 
                 System.out.print("Баланс ");
-                System.out.print(itog1);
+                System.out.print(result1);
                 System.out.println(" руб.");
                 System.out.print("Начислено бонусов ");
                 System.out.println(bonus);
             } else {
                 System.out.print("Баланс ");
-                System.out.print(itog2);
+                System.out.print(result2);
                 System.out.println(" руб.");
             }
 
